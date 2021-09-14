@@ -550,8 +550,8 @@ def detect_peak():
     peak_label.grid(row=cp_row+7,column=1, columnspan = 4)
     return
 
-assess_sig_b = Button(root, text = "Sig-driven detection", padx= 55, pady= 18,command = detect_peak, state='disabled')
-assess_sig_b.grid(row=cp_row+7, column =1, columnspan=4)
+#assess_sig_b = Button(root, text = "Sig-driven detection", padx= 55, pady= 18,command = detect_peak, state='disabled')
+#assess_sig_b.grid(row=cp_row+7, column =1, columnspan=4)
 
 peak_label = Label(root, text = "")
 peak_label.grid(row=cp_row+7,column=1, columnspan = 4)
